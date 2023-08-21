@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="keywords"
+      content="generate color, get color, best color,how to,color picker, color css, rgb color,hex, hex 
+    get color,hex color, css color ,html color, colors, populare color, الحصول
+    علة الالوان, الالوان,افضل الالوان, جرافيك ديزاين,اشهر الالوان ,design, ux, ui, red, green, blue, black, css"
+    />
+    <meta
+      name="description"
+      content="generate your colors and get the best color and get hex code to use it in css and graphic design For Free "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0078d7"/>
+    <link rel="apple-touch-icon" href="/img/mylogo1.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="manifest" href="manifest.json">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>color picker</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4266598348164077"
+     crossorigin="anonymous"></script>
+  </head>
+  <body >
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/img/mylogo1.png" width="40" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/howus.html">documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="https://zghari-hicham.web.app/" target="_blank">about us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container w-100">
+   
+    <div class="row">
+    <div class="col-md-12">
+    
+    <div class="title">
+      <h1>generate colors css</h1>
+    </div>
+    <center>
+      <div class="mother">
+        <img
+          src="https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          width="300"
+          alt=""
+        />
+      </div>
+      <div id="colors"></div>
+      <div class="container w-100">
+        <div >
+          <div class="table d-block">
+            <div class="d-block">
+             <h3>[Red]</h3>
+             <input
+             type="range"
+             min="0"
+             max="255"
+             value="100"
+             id="red"
+             onchange="changeRange();"
+           />
+           <p id="red-label">255</p>
+            </div>
+            <div class="d-block">
+              <h3>[Green]</h3>
+              <input
+              type="range"
+              min="0"
+              max="255"
+              value="100"
+              id="green"
+              onchange="changeRange();"
+            />
+            <p id="green-label">255</p>
+             </div>
+
+
+             <div class="d-block">
+              <h3>[blue]</h3>
+              <input
+              type="range"
+              min="0"
+              max="255"
+              value="100"
+              id="blue"
+              onchange="changeRange();"
+            />
+            <p id="blue-label">255</p>
+             </div>
+
+
+        </div>
+
+        <div class="content">
+          <p id="hex-label">#ffff</p>
+          <p id="hex-copier">
+            <i id="icon" class="fa-solid fa-copy"></i>
+          </p>
+        </div>
+       
+      </div>
+      <footer class="bg-light text-center text-lg-start w-100">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" target="_blank" href="https://zghar.github.io/MYwebsite/">EZZ-hicham</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </div>
+  </div>
+    </center>
+  </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="index.js"></script>
+
+  <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+            console.log('Service worker registered successfully with scope:', registration.scope);
+          }, function(err) {
+            console.log('Service worker registration failed:', err);
+          });
+        });
+      }
+    </script>
+</html>
